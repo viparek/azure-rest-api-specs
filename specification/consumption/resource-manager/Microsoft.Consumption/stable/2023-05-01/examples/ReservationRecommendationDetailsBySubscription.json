@@ -2,11 +2,7 @@
   "parameters": {
     "api-version": "2023-05-01",
     "resourceScope": "subscriptions/00000000-0000-0000-0000-00000000",
-    "lookBackPeriod": "Last30Days",
-    "product": "Standard_DS13_v2",
-    "region": "westus",
-    "scope": "Single",
-    "term": "P3Y"
+    "$filter": "properties/savings/lookBackPeriod eq 30 and properties/scope eq 'Single' and properties/resource/region eq 'westus' and properties/savings/reservationOrderTerm eq 'P3Y' and properties/resource/product eq 'Standard_DS13_v2'"
   },
   "responses": {
     "200": {

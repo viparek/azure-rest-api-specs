@@ -197,7 +197,7 @@
             "name": "event4",
             "type": "Microsoft.Consumption/events",
             "properties": {
-              "transactionDate": "2023-05-01T00:00:00Z",
+              "transactionDate": "2019-10-01T00:00:00Z",
               "description": "Settled invoice #212033",
               "creditCurrency": "USD",
               "reseller": {

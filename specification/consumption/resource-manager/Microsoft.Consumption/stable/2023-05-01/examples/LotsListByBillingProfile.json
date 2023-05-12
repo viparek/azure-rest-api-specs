@@ -71,7 +71,7 @@
               },
               "source": "PurchasedCredit",
               "startDate": "2023-05-01T00:00:00Z",
-              "expirationDate": "2019-12-31T00:00:00Z",
+              "expirationDate": "2023-05-31T00:00:00Z",
               "poNumber": "31224",
               "isEstimatedBalance": false
             }
