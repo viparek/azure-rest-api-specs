@@ -2,7 +2,12 @@
   "parameters": {
     "api-version": "2023-05-01",
     "resourceScope": "providers/Microsoft.Billing/billingAccounts/00000000",
-    "$filter": "properties/savings/lookBackPeriod eq 60 and properties/scope eq 'Shared' and properties/resource/region eq 'eastus' and properties/savings/reservationOrderTerm eq 'P1Y' and properties/resource/product eq 'Standard_DS14_v2' and properties/subscriptionId eq 00000000-0000-0000-0000-00000000"
+    "lookBackPeriod": "Last60Days",
+    "product": "Standard_DS14_v2",
+    "region": "eastus",
+    "scope": "Shared",
+    "term": "P1Y",
+    "$filter": "properties/subscriptionId eq 00000000-0000-0000-0000-00000000"
   },
   "responses": {
     "200": {
